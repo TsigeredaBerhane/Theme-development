@@ -1,0 +1,16 @@
+Theme Name: Blog
+Author: Tsigereda Berhane
+Version: 1.0
+Author URI: http://wordpress.org/
+Description: This platform provides the opportunity to create,schedule,publish and also manage your blog easily.
+*/
+
+body{
+    background-color: black;
+    background-image: url('C:\Users\BELLA TSIGEREDA\Desktop\write\js\test.js.jpg');
+    background-position: center center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-family: 'san-serif';
+    color: white;
