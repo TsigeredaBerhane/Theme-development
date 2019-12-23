@@ -14,3 +14,27 @@ body{
     background-attachment: fixed;
     font-family: 'san-serif';
     color: white;
+    
+    
+header{
+    box-shadow: 0px 0px 0px 0px #036ad8;
+    background: black;
+    position: fixed;
+    bottom: 0;
+    height: 85px;
+    left: auto;
+    right: auto;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+
+}
+
+nav{
+    display: block;
+    margin: 0px;
+    padding-left: 80px;
+    margin-left: 
+}
+    
