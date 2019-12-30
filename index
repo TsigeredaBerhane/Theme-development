@@ -19,3 +19,20 @@ get_header();
 				 : $the_query->the_post();
 			
 		?>	
+		<div class="width100" style="margin-top: 17px">
+			<article class="individualPost" style="margin-top: 5px">
+			                            
+				<b><h2><a href=""> <?php the_title(); ?> </a></h2></b>
+				<div class="excerpt">
+					<?php the_excerpt();?>
+				</div>
+				<a href="<?php the_permalink($post = $post->ID);?>"> Read More </a>
+			                    
+			</article>
+            		                        
+		</div>
+		<?php endwhile; ?>
+
+		<?php wp_reset_postdata(); ?>
+
+	<?php endif; ?>
