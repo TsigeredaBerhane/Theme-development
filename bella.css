@@ -1,0 +1,84 @@
+#site-navigation{
+
+    background-color: deeppink;
+    padding-top: 300px;
+    background-image: url("../assets/image/img.jpg");
+}
+
+#colophon{
+    text-align: center;
+
+}
+
+#footer-navigation{
+    background-color: deeppink;
+
+}
+#site-navigation ul li a{
+    color: black;
+    
+}
+body{
+    font-family: sans-serif;
+}
+#site-navigation a:hover{
+    font-family: 'san-serif';
+    background:deeppink;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: all 500ms;
+    color: white;
+    padding-left: 50px
+}
+#site-navigation{
+    padding-left: 350px;
+    
+}
+#footer-navigation a:hover{
+    font-family: sans-serif;
+    background:pink;
+    text-decoration: none;
+    border-radius: 0px;
+    transition: all 500ms;
+    color: white;
+    padding-left: 50px;
+
+}
+#footer-navigation{
+    padding-left: 350px;
+}
+
+.widget ul li a{
+color:violet;
+font-family: sans-serif;
+
+
+
+}
+.widget ul li a:active,
+.widget ul li a:visited{color:violet;
+}
+.widget .widget-title {
+    color: rgb(231, 12, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration-line: overline;
+    
+}
+.widget .search-submit{
+    background-color: rgb(231, 12, 121);
+}
+
+.bell{
+
+    border-style:dashed; 
+    border-width: 1px;
+    border-color: deeppink;
+    background-color: lightcyan;
+    
+    
+}
+.bell :hover{
+    color: violet;
+
+}
